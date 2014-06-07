@@ -1,3 +1,11 @@
+a{
+    color: #00B4CC;
+}
+
+a:hover, a:focus{
+    color: #008C9E;
+}
+
 .spacer-s{
     height: 10px;
 }
