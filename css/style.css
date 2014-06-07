@@ -1,0 +1,63 @@
+.spacer-s{
+    height: 10px;
+}
+
+.spacer-m{
+    height: 20px;
+}
+
+.nav-tabs{
+    border-bottom: 1px solid #008C9E;
+    font-size: 2em;
+}
+
+.nav>li>a{
+    color: #00B4CC;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    background-color: #333;
+    border-color: #008C9E;
+    color: #dcc;
+}
+
+.nav>li>a:hover, .nav>li>a:focus{
+    background-color: #333;
+}
+
+.well{
+    background-color: #111;
+}
+
+.gray-bg{
+    background-color: #343838;
+}
+
+.light-gray-text{
+    color: #ddd;
+}
+
+.page-border-top{
+    border-top: 8px solid #005F6B;
+}
+
+.aqua-border-top{
+    border-top: 4px solid #00B4CC;
+}
+
+.bright-aqua-border-top{
+    border-top: 4px solid #00DFFC;
+}
+
+.open-sans{
+    font-family: 'Open Sans';
+}
+
+.scifi-text{
+    font-family: 'Audiowide';
+}
+
+.nav-margin{
+    margin-top: 3em;
+}
+
