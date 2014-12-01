@@ -17,6 +17,8 @@ a:hover, a:focus{
 .nav-tabs{
     border-bottom: 1px solid #008C9E;
     font-size: 2em;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .nav>li>a{
@@ -63,6 +65,11 @@ a:hover, a:focus{
 
 .scifi-text{
     font-family: 'Audiowide';
+}
+
+.inline-h{
+    font-size: 60%;
+    margin-left: 20px;
 }
 
 .nav-margin{
