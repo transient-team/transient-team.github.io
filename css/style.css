@@ -76,3 +76,18 @@ a:hover, a:focus{
     margin-top: 3em;
 }
 
+.meta {
+    padding-left: 20px;
+    font-size: 90%;
+    color: #888;
+}
+
+.post-short-content{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.read-more{
+    padding-left: 20px;
+    padding-right: 20px;
+}

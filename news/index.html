@@ -5,14 +5,14 @@ title: "Transient Team - news"
 
 <h2>News</h2>
 <div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <div class="meta">{{ post.date | date_to_string }}</div>
+  {% for post in site.posts %}
+    <div class="post-short">
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="meta">{{ post.date | date_to_string }}</div>
+      <div class="post-short-content">
         {{ post.content | split: '<cut />' | first }}
-        <p class="read_more"><a href="{{ post.url }}">Read more..</a></p>
-      </li>
-    {% endfor %}
-  </ul>
+      </div>
+      <p class="read-more"><a href="{{ post.url }}">Read more..</a></p>
+    </div>
+  {% endfor %}
 </div>
