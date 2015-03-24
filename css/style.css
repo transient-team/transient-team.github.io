@@ -100,3 +100,12 @@ a.no-link:hover, a.no-link:focus {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.spoiler {
+    color: #111;
+}
+
+.spoiler:hover {
+    color: #ff0000;
+    font-weight: bold;
+}
